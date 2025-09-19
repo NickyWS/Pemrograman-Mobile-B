@@ -53,24 +53,24 @@ class _CounterAppState extends State<CounterApp> {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               FloatingActionButton(
-          onPressed: _decrementCounter,
-          backgroundColor: Colors.teal,
-          foregroundColor: Colors.white,
-          child: const Icon(Icons.remove),
+                onPressed: _decrementCounter,
+                backgroundColor: Colors.teal,
+                foregroundColor: Colors.white,
+                child: const Icon(Icons.remove),
               ),
               const SizedBox(width: 12),
               FloatingActionButton(
-          onPressed: _resetCounter,
-          backgroundColor: Colors.teal,
-          foregroundColor: Colors.white,
-          child: const Icon(Icons.autorenew),
+                onPressed: _resetCounter,
+                backgroundColor: Colors.teal,
+                foregroundColor: Colors.white,
+                child: const Icon(Icons.autorenew),
               ),
               const SizedBox(width: 12),
               FloatingActionButton(
-          onPressed: _incrementCounter,
-          backgroundColor: Colors.teal,
-          foregroundColor: Colors.white,
-          child: const Icon(Icons.add),
+                onPressed: _incrementCounter,
+                backgroundColor: Colors.teal,
+                foregroundColor: Colors.white,
+                child: const Icon(Icons.add),
               ),
             ],
           ),
@@ -78,4 +78,5 @@ class _CounterAppState extends State<CounterApp> {
       ),
     );
   }
+
 }
